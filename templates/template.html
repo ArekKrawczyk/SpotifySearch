@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  <br>
+  {{my_string}}
+  <br>
+  <br>
+  <div id="results">
+  <ul>
+    {% for n in my_list %}
+        <li style="margin-bottom: 2%">
+            <img src={{n[1]}} alt="Foto not available" width=64 height=64 class="cover" data-album-id="{{n[3]}}"> <a href={{n[2]}}> {{n[0]}} </a>
+        </li>
+    {% endfor %}
+  </ul>
+  </div>
+{% block javascript %}
+    <script type="text/javascript">
+        {% include "playbackscript.js" %}
+    </script>
+{% endblock %}  <br>
+
+{% endblock %}

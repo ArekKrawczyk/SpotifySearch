@@ -1,0 +1,45 @@
+<style type="text/css">
+    .container {
+    max-width: 700px;
+    }
+    h2 {color: red;}
+    ul{
+    list-style-type: none;
+    }
+    .styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    width: 83px;position:relative;top:2px;
+    color: white;
+    font-weight: bold;
+    }
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+    .styled-button {
+    border: none;
+    height: 29px;
+    color: white;
+    font-weight: bold;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+    /* -------------------- Rounded Corners */
+    .rounded {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    }
+    /* -------------------- Colors: Background */
+    .green   { background-color: #779126; }
+    /* -------------------- Colors: Text */
+    .green select   { color: #fff; }
+</style>
