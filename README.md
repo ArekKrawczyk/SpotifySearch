@@ -10,3 +10,5 @@ We can select a filter used during a search (artist, album, track or playlist) a
 In addition to this simple use case another useful feature was implemented: when searching for album or track we can click on the picture next to the found record to hear a preview of the album.
 
 The app may or may not contain subliminal messaging.
+
+python run.py to start the app.
