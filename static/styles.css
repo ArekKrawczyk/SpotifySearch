@@ -21,25 +21,26 @@
 .cover.playing {
     border: 5px solid #e45343;
 }
-    .styled-button {
-    border: none;
-    height: 29px;
-    color: white;
-    font-weight: bold;
-    }
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        text-indent: 1px;
-        text-overflow: '';
-    }
-    /* -------------------- Rounded Corners */
-    .rounded {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    }
-    /* -------------------- Colors: Background */
-    .green   { background-color: #779126; }
-    /* -------------------- Colors: Text */
-    .green select   { color: #fff; }
+.styled-button {
+border: none;
+height: 29px;
+color: white;
+font-weight: bold;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+/* -------------------- Rounded Corners */
+.rounded {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+}
+/* -------------------- Colors: Background */
+.green   { background-color: #779126; }
+/* -------------------- Colors: Text */
+.green select   { color: #fff; }
+
 </style>

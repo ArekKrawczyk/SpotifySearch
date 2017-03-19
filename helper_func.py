@@ -5,7 +5,7 @@ def get_request(searchterm, filtr):
     return 'https://api.spotify.com/v1/search?query=%s&type=%s' % (searchterm, filtr)
 
 def get_counter_str(num_of_res):
-    return "Counter: "+str(num_of_res)
+    return "Number of results: "+str(num_of_res)
 
 def pluralize_string(filtr):
     return filtr+"s"

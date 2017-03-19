@@ -5,11 +5,12 @@
 {% endblock %}
 {% block content %}
   <br>
-  {{my_string}}
+    <div style="margin-left:30%">
+    {{my_string}} </div>
   <br>
   <br>
-  <div id="results">
-  <ul>
+  <div id="results" style="results">
+  <ul style="margin-left:30%">
     {% for n in my_list %}
         <li style="margin-bottom: 2%">
             <img src={{n[1]}} alt="Foto not available" width=64 height=64 class="cover" data-album-id="{{n[3]}}"> <a href={{n[2]}}> {{n[0]}} </a>
