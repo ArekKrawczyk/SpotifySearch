@@ -15,7 +15,7 @@ def parse_item(item):
     if 'album' in item:
         item = item['album']
     imgs = item["images"]
-    none_img = "http://beelinetour.com/wp-content/uploads/2014/05/avatar.jpg"
+    none_img = "static/avatar.jpg"
     img_url = imgs[-1]["url"] if imgs else none_img
     content_url = item['external_urls']['spotify']
     content_id = item["id"]
@@ -38,7 +38,7 @@ def add_subliminal_messaging(results, filtr):
 def process_request(args):
     results = []
     counter_msg = ""
-    if args:
+    if args and args['searchterm']:
         filtr = args["Filter"].lower()
         req = get_request(args["searchterm"], filtr)
         response = requests.get(req)
