@@ -1,6 +1,5 @@
 
-var resultsPlaceholder = document.getElementById('results'),
-    playingCssClass = 'playing',
+var playingCssClass = 'playing',
     audioObject = null;
 
 var fetchTracks = function (albumId, callback) {
